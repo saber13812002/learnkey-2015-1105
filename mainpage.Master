@@ -1,0 +1,578 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mainpage.master.cs" Inherits="WebApplication1.mainpage" %>
+
+<%--<!DOCTYPE html>--%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<%--<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>--%>
+<%--    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+<%--</head>
+<body>
+    <form id="form1" runat="server">
+    <div>--%>
+<%--        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>--%>
+<%--    </div>
+    </form>
+</body>
+</html>--%>
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="fa-IR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="author" content="Saman Ismael, @54nn4n">
+
+	<title> 
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder_title" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+	</title>
+  <link rel="stylesheet" href="./default_files/fonts.css" type="text/css" media="screen" charset="utf-8">
+	<link href="./default_files/css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="./default_files/bootstrap.css" type="text/css" media="screen" charset="utf-8">
+
+<!--[if gte IE 7]><!-->
+  <link rel="stylesheet" href="./default_files/style.css" type="text/css" media="screen" charset="utf-8">
+<!-- <![endif]-->
+
+
+
+
+
+ 
+<script async="" src="./default_files/analytics.js"></script><script type="text/javascript" language="javascript" src="./default_files/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./default_files/jquery-ui.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="./default_files/prettify.css">
+<script type="text/javascript" src="./default_files/prettify.js"></script>
+<script type="text/javascript" src="./default_files/jquery.slimscroll.js"></script>
+
+
+
+<script type="text/javascript" language="javascript" src="./default_files/script.js"></script>
+
+<script type="text/javascript" language="javascript" src="./default_files/bootstrap.min.js"></script>
+
+<script type="text/javascript" language="javascript" src="./default_files/jquery.atooltip.min.js"></script>
+
+
+  <link rel="alternate" type="application/rss+xml" title="موسسه آموزشی مجازی مصباح سافت RSS Feed" href="http://learnkey.ir/feed/">
+  <link rel="alternate" type="application/atom+xml" title="موسسه آموزشی مجازی مصباح سافت Atom Feed" href="http://learnkey.ir/feed/atom/">
+  <link rel="pingback" href="http://learnkey.ir/xmlrpc.php">
+    <link rel="stylesheet" id="meteor-slides-css" href="./default_files/meteor-slides.css" type="text/css" media="all">
+<link rel="stylesheet" id="video-js-css-css" href="./default_files/video-js.css" type="text/css" media="all">
+<link rel="stylesheet" id="video-js-kg-skin-css" href="./default_files/kg-video-js-skin.css" type="text/css" media="all">
+<link rel="stylesheet" id="kgvid_video_styles-css" href="./default_files/kgvid_styles.css" type="text/css" media="all">
+<script type="text/javascript" src="./default_files/video.js"></script>
+<script type="text/javascript" src="./default_files/jquery.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var ajax_object = { "ajaxurl": "http:\/\/learnkey.ir\/wp-admin\/admin-ajax.php" };
+    /* ]]> */
+</script>
+<script type="text/javascript" src="./default_files/kgvid_video_embed.js"></script>
+<script type="text/javascript" src="./default_files/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="./default_files/jquery.metadata.v2.js"></script>
+<script type="text/javascript" src="./default_files/jquery.touchwipe.1.1.1.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var meteorslidessettings = { "meteorslideshowspeed": "2000", "meteorslideshowduration": "5000", "meteorslideshowheight": "400", "meteorslideshowwidth": "960", "meteorslideshowtransition": "fade" };
+    /* ]]> */
+</script>
+<script type="text/javascript" src="./default_files/slideshow.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://learnkey.ir/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://learnkey.ir/wp-includes/wlwmanifest.xml"> 
+
+<!-- Simple Social Buttons style sheet -->
+<style type="text/css">
+   div.simplesocialbuttons { height: 20px; margin: 10px auto 10px 0; text-align: center; clear: left; }
+   div.simplesocialbutton { float: left; text-align: center;}
+</style>
+<!-- End of Simple Social Buttons -->
+
+<script type="text/javascript">videojs.options.flash.swf = "http://learnkey.ir/wp-content/plugins/video-embed-thumbnail-generator/video-js/video-js.swf?4.1.0"</script>
+
+
+<!--	<link rel="stylesheet" type="text/css" href="http://learnkey.ir/wp-content/themes/remisbootstrap.css"/> !-->
+	<link rel="stylesheet" type="text/css" href="./default_files/bootstrap-verticaltabs.css">
+	<link rel="stylesheet" type="text/css" href="./default_files/roz.se.css">
+
+<!--	<script type="text/javascript" src="jquery-1.7.1.js"></script> !-->
+	<script type="text/javascript" src="./default_files/bootstrap-transition.js"></script>
+	<script type="text/javascript" src="./default_files/bootstrap-tab.js"></script>
+	<script type="text/javascript" src="./default_files/jquery.ba-postmessage.min.js"></script>
+	<script type="text/javascript" language="javascript" src="./default_files/jssidebar"></script>
+	<script>
+	    $(document).ready(function () {
+	        $('.normalTip').aToolTip();
+	        $("#myaccount-show").hide();
+	        $("#myaccount-dropdown").hide();
+	        if (l == 1) {
+	            $("#myaccount-show").hide();
+	            $("#myaccount-dropdown").show();
+	        } else {
+	            $("#myaccount-show").show();
+	            $("#myaccount-dropdown").hide();
+	        }
+	    });
+	</script>
+	
+	
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-38126621-1', 'learnkey.ir');
+    ga('send', 'pageview');
+</script>		
+   
+
+
+	
+</head>
+
+    <body>
+    			
+        <div class="header">
+                <div class="header-container">
+                    <div class="right-header-content">
+                        <ul>
+                            <li></li>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder_TopLinkBar" runat="server">
+
+                            </asp:ContentPlaceHolder>
+                               <%-- <li><a href="http://learnkey.ir/">آغازگاه</a></li>
+                                <li class="page_item page-item-3369"><a href="http://learnkey.ir/courses-list">دوره ها</a></li>
+                                <li class="page_item page-item-1281"><a href="http://learnkey.ir/schedule">تقویم دوره ها</a></li>
+                                <li class="page_item page-item-66"><a href="http://learnkey.ir/certification/">آزمون های بین المللی</a></li>
+                                <li class="page_item page-item-91"><a href="http://learnkey.ir/?post_type=job">فرصت های شغلی</a></li>
+                                <li class="page_item page-item-1822"><a href="http://learnkey.ir/learning">مقالات</a></li>
+                                <li class="page_item page-item-91"><a href="http://learnkey.ir/contact/">تماس با ما</a></li>--%>
+<li class="page_item page-item-73">
+<div class="dropdown">
+    <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="http://www.remisexpert.com/#">
+    درباره ما
+    </a>
+    <ul class="dropdown-menu submenu" role="menu" aria-labelledby="dLabel">
+    	<a href="http://learnkey.ir/">
+    		
+    		درباره ی مصباح
+    		</a>
+    	<br>
+    	<a href="./instructors.aspx">
+    		
+    		اساتید
+    		</a>
+		<br>    	
+    	<a href="http://learnkey.ir/equipments">
+			تجهیزات
+		</a>
+		<br>  	
+    	<a href="http://learnkey.ir/cooperation-solutions">
+    		
+    		راهکارهای سازمانی
+    		</a>
+    	<br>
+    	<a href="http://learnkey.ir/international-courses">
+    		
+    		دوره های بین المللی</a>
+    	<br>
+    	<a href="http://learnkey.ir/student-credit-system">
+    		
+    		سامانه اعتباری دانشجویان
+    	</a>
+    </ul>
+ </div>
+</li>
+<li class="page_item page-item-73" id="myaccount-show" style="display: list-item;">
+	<div class="dropdown">
+	    <a class="dropdown-toggle" id="A1" role="button" data-toggle="dropdown" data-target="#" href="http://www.remisexpert.com/#">
+			ورود
+	    </a>
+	
+	    <ul class="dropdown-menu submenu" role="menu" aria-labelledby="dLabel" style="width: 220px; height: 180px;">
+	
+			<form novalidate="novalidate" action="http://my.learnkey.ir/login_check" method="post">
+			<div id="form">
+
+	
+			    <input style="border-radius: 0px; font-family: tahoma; font-size: 12px;" type="text" id="login_username" name="login[username]" required="required" placeholder="شماره دانشجویی">
+	
+			    <input style="border-radius: 0px; font-family: tahoma; font-size: 12px;" type="password" id="login_password" name="login[password]" required="required" placeholder="رمزعبور">
+
+			    <input type="submit" value="ورود" class="btn btn-info" style="font-family: tahoma; width: 220px; border-radius: 0px; background: #f39c12; padding: 10px;">
+			    <div class="clearfix"></div>
+			    <br>
+
+				<div style="width: 100%; text-align: center; font-size: 12px; font-family: tahoma;">				
+				<a href="http://my.learnkey.ir/student/signup">ثبت نام جدید</a>
+				<span style="color: #fff;margin 5px;">|</span>
+				<a href="http://my.learnkey.ir/forgot-password">رمز را فراموش کردم</a>
+				</div>
+	
+			
+
+	    </div></form></ul>
+	</div>
+</li>	
+
+<li class="page_item page-item-73" id="myaccount-dropdown" style="display: none;">
+	<div class="dropdown">
+	    <a class="dropdown-toggle" id="A2" role="button" data-toggle="dropdown" data-target="#" href="http://www.remisexpert.com/#">
+	    حساب من
+	    </a>
+	
+	    <ul class="dropdown-menu submenu" role="menu" aria-labelledby="dLabel">
+	
+		<a href="http://my.learnkey.ir/profile">حساب من</a>
+			<br>
+		<a href="http://my.learnkey.ir/my-courses">دوره‌های من</a>
+			<br>
+		<a href="http://my.learnkey.ir/educational-history">سوابق آموزشی</a>
+			<br>  	
+		<a href="http://my.learnkey.ir/financial-service">امور مالی و پرداختها</a>
+			<br>
+		<a href="http://my.learnkey.ir/logout">خروج</a>
+	    </ul>
+	</div>
+</li>	
+
+</ul>
+                    </div>
+                    <div class="left-header-content"><a href=""><img src="./img/logo-header.png"></a></div>
+                </div>
+        </div>
+
+    
+ 
+        <div class="main-slider">
+
+            	
+		
+	<div id="meteor-slideshow" class="meteor-slides  navnone navhover" style="width: 960px; height: 400px;">
+	
+			
+				
+			
+		<div class="meteor-clip">
+	
+				
+			<img style="visibility: hidden;" class="meteor-shim" src="./default_files/01.jpg" alt="">
+			<div class="mslide mslide-1" style="position: absolute; top: 0px; left: 0px; z-index: 4; opacity: 1; display: block; width: 960px; height: 400px;">
+				
+									
+					<img width="960" height="400" src="./default_files/01.jpg" class="attachment-featured-slide wp-post-image" alt="01" title="">					
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-2" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3; width: 960px; height: 400px; opacity: 0;">
+				
+									
+					<img width="960" height="400" src="./default_files/02.jpg" class="attachment-featured-slide wp-post-image" alt="02" title="">					
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-3" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3; width: 960px; height: 400px; opacity: 0;">
+				
+									
+					<img width="960" height="400" src="./default_files/03.jpg" class="attachment-featured-slide wp-post-image" alt="03" title="">					
+							
+			</div><!-- .mslide -->
+			
+						
+				
+		</div><!-- .meteor-clip -->
+				
+					
+	</div><!-- .meteor-slides -->
+	
+	
+        </div>
+
+        <div class="index-part1">
+             <div class="right">
+                   <div style="position: absolute;">
+                      <img src="./img/calendar.png" style="float: left; left: -195px; position: absolute;">
+
+                      <div style="float: right;">تقويم دوره ها</div>
+                    </div>
+                                   <div class="more"><a href="http://learnkey.ir/">مشاهده تقويم</a></div>
+                                   <div class="course-box">
+
+                                   </div>
+
+            </div>
+            <div class="left">
+                <div style="float: right; position: relative;">
+                    <img src="./img/course.png" style="float: left; left: -295px; position: absolute; top: -5px;">
+
+                    <div style="float: right;">دوره ها</div>
+
+                </div>
+                <div style="float: left;">
+                             <div class="more"><a href="http://learnkey.ir/">مشاهده تمامي دوره ها</a></div>
+                </div>
+            </div>
+
+        </div>
+		
+		<div style=" height: 115px; margin: 30px auto 30px; width: 960px; ">
+			<div class="webinar">
+				<a href="http://learnkey.ir/">	
+						وب کنفرانس و مشاوره های آنلاین
+				</a>
+			</div>
+			<div class="tv">
+				<a href="http://aparat.com/mesbahsoft">	
+						ویدیوهای آموزشی
+				</a>				
+			</div>
+		</div>
+
+        <div class="index-part3">
+                <div class="left">
+	      <div style="position: relative; width: 400px; height: 0px; float:none;">
+		        <div style="float: right;" id="pulse-teachers">
+                   <img src="./img/teachers.png" style="float: left; position: absolute; left: 15px; top: -15px;"> 
+
+                    <div style="float: right;">اساتيد</div>
+
+		        </div>
+	      </div>
+              <div style="width: 400px;">
+                         <div class="more"><a href="instructors.aspx">مشاهده تمامي اساتيد</a></div>
+              </div>                	
+                	
+  
+                </div>
+                <div class="right">
+               <div class="h3">دوره هاي در حال شروع</div>
+               	<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 150px;"><div class="course-box" id="slimScrollBoxCourse" style="overflow: hidden; width: auto; height: 150px;">
+                	<table width="100%">
+                    	<thead>
+                        	<tr>
+                        		<th style="border-bottom: 1px solid #f2f2f2;"><div style="margin-bottom: 5px;">تاریخ شروع</div></th>
+                                <th style="border-bottom: 1px solid #f2f2f2; text-align: center; width: 385px;"><div style="margin-bottom: 5px;">دوره</div></th>
+                            </tr>
+                        </thead>
+                           	  <tbody>
+                           <asp:ContentPlaceHolder ID="ContentPlaceHolderNextCources" runat="server">
+
+                           </asp:ContentPlaceHolder>
+                           </tbody></table>
+                                   </div><div class="slimScrollBar ui-draggable" style="background-color: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; right: 1px; height: 76.45502645502646px; background-position: initial initial; background-repeat: initial initial;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; background-color: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px; background-position: initial initial; background-repeat: initial initial;"></div></div>
+                </div>
+
+        </div>
+
+		<div class="index-part4-new">
+			<div class="right">
+	        <div class="index-part4">
+	                    <div class="left">
+	                    <h1>اخبار </h1>
+	                    <div class="more"><a href="akhbar.aspx">مشاهده تمامي اخبار</a></div>
+	                    </div>
+	                    <div class="right">
+	
+	
+	                    	
+	                            <div class="news-box">
+	                                   <table width="200">
+	                                    <tbody><tr> <td>
+	<img src="./img/news-sample.png">
+
+						</td></tr>
+	                                    <tr> <td><div class="news-title"> <a href="http://www.remisexpert.com/ipv6-ipv4" target="_blank" rel="bookmark"> راه اندازی پروتکل IPv6 آغاز شد!</a>
+	                                     </div></td> </tr>
+	                                    <tr> <td><div class="news-index-body">
+	                                            <p dir="RTL"><strong>T-Minus Zero و Liftoff! </strong></p>
+<p dir="RTL"><strong>راه اندازی پروتکل IPv6 آغاز شد!</strong></p>
+<p dir="RTL">ترجمه شده توسط آقای علی زعیم کهن</p>
+<p dir="RTL">راه ...
+	                                     </p></div></td> </tr>
+	                                   </tbody></table>
+	                            </div>
+	
+	                    	
+	                            <div class="news-box">
+	                                   <table width="200">
+	                                    <tbody><tr> <td>
+	<img src="./img/news-sample.png">
+
+						</td></tr>
+	                                    <tr> <td><div class="news-title"> <a href="http://www.remisexpert.com/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%af%d9%88%d8%b1%d9%87-exchange-2013" target="_blank" rel="bookmark">برگزاری دوره Exchange 2013</a>
+	                                     </div></td> </tr>
+	                                    <tr> <td><div class="news-index-body">
+	                                            استاد دوره: آقای مهندس صالح پور، شروع دوره : 21 دی ماه ۹۲ ، روزهای شنبه و چهارشنبه، ساعت 17:30 ...
+	                                     </div></td> </tr>
+	                                   </tbody></table>
+	                            </div>
+	
+	                    	
+	                    </div>
+	        </div>
+	        </div>
+	        <div class="left">
+	        	<div class="call-me">
+	        		
+	        		<a href="http://www.remisexpert.com/#callme-modal" role="button" data-toggle="modal">
+		        		<br>
+		        		درخواست
+		        		<br>
+		        		<br>
+		        		تماس با شما
+					</a>
+
+	        		<img src="./img/callme.png" style="position: absolute; left: 35px; top: 25px;" id="call-pic">
+	        		
+	        	</div>
+	        	<div class="live-chat">
+	        		
+	        		<p onclick="openLiveZillaWin()">
+	        		گفتگو
+	        		<br><br>
+	        		  آنلاین
+	        		</p>
+	        		
+	        		<img src="./img/livechat.png" style="position: absolute; left: 25px; top: 35px;">
+	        		
+	        	</div>
+	        </div>
+        </div>
+
+        <div class="index-part5">
+
+            <div class="left">
+                       <div class="h3">Last Certified</div>
+                                   <div class="course-box-certified">
+
+                             <div class="textwidget"></div><table>
+                                          	<tbody><tr>
+
+                                                  <th width="260" style="border-bottom: 1px solid #f2f2f2;"><div style="margin-bottom: 5px;">Course Certitified</div></th>
+                                                  <th width="200" style="border-bottom: 1px solid #f2f2f2; text-align: center; "><div style="margin-bottom: 5px;">Name</div></th>
+                                              </tr>
+
+
+<asp:ContentPlaceHolder ID="ContentPlaceHolder_certified" runat="server">
+
+</asp:ContentPlaceHolder>
+
+		
+                                        </tbody></table>
+
+                                   </div>
+            </div>
+            <div class="right">
+                                             <div class="h3">با ما در تماس باشيد</div>
+
+                  <div class="index-p5-contact">
+                           آدرس:
+                           تهران، خیابان میرداماد - ساختمان میرداماد - ط ۴ واحد ۴۴
+                           <br>
+                           تلفن:
+                           ۸۸۸۷۳۶۲۹ 
+                   <ul>
+                          <li><a href="https://www.facebook.com/mesbahsoft" target="_blank"><img src="./img/fb.png"></a></li>
+                          <li><a href="https://twitter.com/mesbahsoft" target="_blank"><img src="./img/tw.png"></a></li>                       </ul>
+                  </div>
+
+            </div>
+
+        </div>
+
+		<div id="callme-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel" style="font-family: &#39;BNazanin&#39;; text-align: center;">
+				درخواست تماس با شما</h3>
+			</div>
+
+			<form name="callmeform" action="http://www.remisexpert.com/save.php" method="POST" id="callmeform">
+
+				<div class="modal-body">
+				<p>
+					</p><div style="font-family: tahoma; font-size: 13px; text-align: center;">
+					ما به شما زنگ می زنیم!
+					<br>
+						
+						ساعات کاری: شنبه تا چهارشنبه ( 9 الی 17 )
+
+					</div>
+					<br>
+					  <div id="result"></div>
+						<div style="width: 315px; margin: 10px auto; direction: ltr;">
+    					<input id="callmenumber" name="number" type="text" value="" style="font-family: &#39;Open Sans&#39;; text-align: center; margin: 0 auto; width: 300px; height: auto; font-size: 24px; margin-bottom: 20px;">
+					  		<script type="text/javascript" src="./default_files/challenge"></script>Input error: Invalid referer
+
+	<noscript>
+  		&lt;iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfszeMSAAAAAIRG7ccwVhY8GXagoxYkih4yl5MA" height="300" width="500" frameborder="0"&gt;&lt;/iframe&gt;&lt;br/&gt;
+  		&lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;&lt;/textarea&gt;
+  		&lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"/&gt;
+	</noscript>						</div>						
+				<p></p>
+				</div>
+				<div class="modal-footer" style="margin-bottom: -20px;">
+				<button class="btn" data-dismiss="modal" aria-hidden="true" style="font-family: tahoma; font-size: 13px;">بستن</button>
+				<input type="submit" value="درخواست تماس" class="btn btn-primary" style="font-family: tahoma; font-size: 13px;">
+				<button type="button" id="success-callme-label" class="btn btn-success disabled hide" disabled="disabled" style="font-family: tahoma; font-size: 13px;">شماره تماس شما با موفقیت ارسال شد.</button>
+				<button type="button" id="unsuccess-callme-label" class="btn btn-danger disabled hide" disabled="disabled" style="font-family: tahoma; font-size: 13px;">شماره تماس شما ارسال نشد لطفا دوباره تلاش کنید.</button>
+    
+			</div>
+			
+			</form>
+			
+		</div>
+
+        <div class="clearfix"></div>
+<div class="footer">
+
+
+<div style="width: 100%; height: 50px;">
+  <div class="bottom-nav">
+      <ul>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder_footer" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+      </ul>
+  </div>
+</div>
+
+                  تمامي حقوق اين اثر متعلق به موسسه آموزشی مجازی مصباح سافت است.
+                  <br>
+                  <br>
+                  
+<!--				  <a href="http://mesbahsoft.com" target=_blank > <div id="rozdevteam"> </div> </a> !-->
+                  <br>
+
+</div>       
+
+
+
+
+<script src="./default_files/script2.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+
+</body></html>

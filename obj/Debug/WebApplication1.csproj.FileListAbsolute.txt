@@ -1,0 +1,25 @@
+c:\users\saber.mesbahsoft\documents\visual studio 2012\Projects\leankey_arjang\WebApplication1\bin\WebApplication1.dll
+c:\users\saber.mesbahsoft\documents\visual studio 2012\Projects\leankey_arjang\WebApplication1\bin\WebApplication1.pdb
+c:\users\saber.mesbahsoft\documents\visual studio 2012\Projects\leankey_arjang\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+c:\users\saber.mesbahsoft\documents\visual studio 2012\Projects\leankey_arjang\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\saber.mesbahsoft\documents\visual studio 2012\Projects\leankey_arjang\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\MESBAH\learnkey\learnkey2\WebApplication1\bin\WebApplication1.dll
+E:\MESBAH\learnkey\learnkey2\WebApplication1\bin\WebApplication1.pdb
+E:\MESBAH\learnkey\learnkey2\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+E:\MESBAH\learnkey\learnkey2\WebApplication1\obj\Debug\WebApplication1.dll
+E:\MESBAH\learnkey\learnkey2\WebApplication1\obj\Debug\WebApplication1.pdb
+H:\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\bin\WebApplication1.dll
+H:\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\bin\WebApplication1.pdb
+H:\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+H:\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\obj\Debug\WebApplication1.dll
+H:\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\obj\Debug\WebApplication1.pdb
+\\192.168.1.15\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\bin\WebApplication1.dll
+\\192.168.1.15\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\bin\WebApplication1.pdb
+\\192.168.1.15\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+\\192.168.1.15\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\obj\Debug\WebApplication1.dll
+\\192.168.1.15\mesbahsoft csharp projects\learnkey\learnkey.ir\learnkey2\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\crm2011\Downloads\learnkey\httpdocs\bin\WebApplication1.dll
+C:\Users\crm2011\Downloads\learnkey\httpdocs\bin\WebApplication1.pdb
+C:\Users\crm2011\Downloads\learnkey\httpdocs\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\crm2011\Downloads\learnkey\httpdocs\obj\Debug\WebApplication1.dll
+C:\Users\crm2011\Downloads\learnkey\httpdocs\obj\Debug\WebApplication1.pdb

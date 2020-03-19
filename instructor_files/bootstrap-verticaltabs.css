@@ -1,0 +1,23 @@
+.verticaltabs-container {
+  position: relative;
+  min-width: 460px;
+  min-height: 460px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.verticaltabs-container > .nav-tabs {
+
+}
+
+.verticaltabs-container > .tab-content {
+  overflow: none;
+  position: absolute;
+  top: 0;
+  right: 58px;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}

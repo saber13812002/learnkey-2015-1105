@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D42D4E3-1585-4135-AC0D-223932D2B49E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="akhbar.aspx" />
+    <Content Include="bin\WebApplication1.dll" />
+    <Content Include="bin\WebApplication1.pdb" />
+    <Content Include="css\style.css" />
+    <Content Include="darbare ma.aspx" />
+    <Content Include="default_files\01.jpg" />
+    <Content Include="default_files\02.jpg" />
+    <Content Include="default_files\03.jpg" />
+    <Content Include="default_files\analytics.js" />
+    <Content Include="default_files\bootstrap-tab.js" />
+    <Content Include="default_files\bootstrap-transition.js" />
+    <Content Include="default_files\bootstrap-verticaltabs.css" />
+    <Content Include="default_files\bootstrap.css" />
+    <Content Include="default_files\bootstrap.min.js" />
+    <Content Include="default_files\fonts.css" />
+    <Content Include="default_files\images\more-index-part1.png" />
+    <Content Include="default_files\images\more-index-part3.png" />
+    <Content Include="default_files\images\tv-bg - Copy.png" />
+    <Content Include="default_files\images\tv-bg.png" />
+    <Content Include="default_files\images\webinar-bg.png" />
+    <Content Include="default_files\jquery-1.9.1.min.js" />
+    <Content Include="default_files\jquery-ui.min.js" />
+    <Content Include="default_files\jquery.atooltip.min.js" />
+    <Content Include="default_files\jquery.ba-postmessage.min.js" />
+    <Content Include="default_files\jquery.cycle.all.js" />
+    <Content Include="default_files\jquery.js" />
+    <Content Include="default_files\jquery.metadata.v2.js" />
+    <Content Include="default_files\jquery.slimscroll.js" />
+    <Content Include="default_files\jquery.touchwipe.1.1.1.js" />
+    <Content Include="default_files\kg-video-js-skin.css" />
+    <Content Include="default_files\kgvid_styles.css" />
+    <Content Include="default_files\kgvid_video_embed.js" />
+    <Content Include="default_files\meteor-slides.css" />
+    <Content Include="default_files\more-index-part1.png" />
+    <Content Include="default_files\more-index-part3.png" />
+    <Content Include="default_files\prettify.css" />
+    <Content Include="default_files\prettify.js" />
+    <Content Include="default_files\roz.se.css" />
+    <Content Include="default_files\script.js" />
+    <Content Include="default_files\script2.js" />
+    <Content Include="default_files\slideshow.js" />
+    <Content Include="default_files\style.css" />
+    <Content Include="default_files\video-js.css" />
+    <Content Include="default_files\video.js" />
+    <Content Include="Global.asax" />
+    <Content Include="img\f.jpg" />
+    <Content Include="instructor_files\analytics.js" />
+    <Content Include="instructor_files\bootstrap-tab.js" />
+    <Content Include="instructor_files\bootstrap-transition.js" />
+    <Content Include="instructor_files\bootstrap-verticaltabs.css" />
+    <Content Include="instructor_files\bootstrap.css" />
+    <Content Include="instructor_files\bootstrap.min.js" />
+    <Content Include="instructor_files\comment-reply.min.js" />
+    <Content Include="instructor_files\exchangelogo.png" />
+    <Content Include="instructor_files\fonts.css" />
+    <Content Include="instructor_files\jquery-1.9.1.min.js" />
+    <Content Include="instructor_files\jquery-ui.min.js" />
+    <Content Include="instructor_files\jquery.atooltip.min.js" />
+    <Content Include="instructor_files\jquery.ba-postmessage.min.js" />
+    <Content Include="instructor_files\jquery.cycle.all.js" />
+    <Content Include="instructor_files\jquery.js" />
+    <Content Include="instructor_files\jquery.metadata.v2.js" />
+    <Content Include="instructor_files\jquery.slimscroll.js" />
+    <Content Include="instructor_files\jquery.touchwipe.1.1.1.js" />
+    <Content Include="instructor_files\kg-video-js-skin.css" />
+    <Content Include="instructor_files\kgvid_styles.css" />
+    <Content Include="instructor_files\kgvid_video_embed.js" />
+    <Content Include="instructor_files\logo-header.png" />
+    <Content Include="instructor_files\meteor-slides.css" />
+    <Content Include="instructor_files\prettify.css" />
+    <Content Include="instructor_files\prettify.js" />
+    <Content Include="instructor_files\roz.se.css" />
+    <Content Include="instructor_files\sample-teacher%281%29.png" />
+    <Content Include="instructor_files\sample-teacher%2810%29.png" />
+    <Content Include="instructor_files\sample-teacher%2811%29.png" />
+    <Content Include="instructor_files\sample-teacher%2812%29.png" />
+    <Content Include="instructor_files\sample-teacher%2813%29.png" />
+    <Content Include="instructor_files\sample-teacher%2814%29.png" />
+    <Content Include="instructor_files\sample-teacher%2815%29.png" />
+    <Content Include="instructor_files\sample-teacher%2816%29.png" />
+    <Content Include="instructor_files\sample-teacher%2817%29.png" />
+    <Content Include="instructor_files\sample-teacher%282%29.png" />
+    <Content Include="instructor_files\sample-teacher%283%29.png" />
+    <Content Include="instructor_files\sample-teacher%284%29.png" />
+    <Content Include="instructor_files\sample-teacher%285%29.png" />
+    <Content Include="instructor_files\sample-teacher%286%29.png" />
+    <Content Include="instructor_files\sample-teacher%287%29.png" />
+    <Content Include="instructor_files\sample-teacher%288%29.png" />
+    <Content Include="instructor_files\sample-teacher%289%29.png" />
+    <Content Include="instructor_files\sample-teacher.png" />
+    <Content Include="instructor_files\script.js" />
+    <Content Include="instructor_files\script2.js" />
+    <Content Include="instructor_files\slideshow.js" />
+    <Content Include="instructor_files\style.css" />
+    <Content Include="instructor_files\style_.css" />
+    <Content Include="instructor_files\video-js.css" />
+    <Content Include="instructor_files\video.js" />
+    <Content Include="maghalat.aspx" />
+    <Content Include="matnemaghale.aspx" />
+    <Content Include="obj\Debug\WebApplication1.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\WebApplication1.dll" />
+    <Content Include="obj\Debug\WebApplication1.pdb" />
+    <Content Include="sharhenews.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="default.aspx" />
+    <Content Include="instructors.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="akhbar.aspx.cs">
+      <DependentUpon>akhbar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="akhbar.aspx.designer.cs">
+      <DependentUpon>akhbar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="akhbar.Master.cs">
+      <DependentUpon>akhbar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="akhbar.Master.designer.cs">
+      <DependentUpon>akhbar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="darbare ma.aspx.cs">
+      <DependentUpon>darbare ma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="darbare ma.aspx.designer.cs">
+      <DependentUpon>darbare ma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="maghalat.aspx.cs">
+      <DependentUpon>maghalat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="maghalat.aspx.designer.cs">
+      <DependentUpon>maghalat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="maghalat.Master.cs">
+      <DependentUpon>maghalat.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="maghalat.Master.designer.cs">
+      <DependentUpon>maghalat.Master</DependentUpon>
+    </Compile>
+    <Compile Include="mainpage.Master.cs">
+      <DependentUpon>mainpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mainpage.Master.designer.cs">
+      <DependentUpon>mainpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="matnemaghale.aspx.cs">
+      <DependentUpon>matnemaghale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="matnemaghale.aspx.designer.cs">
+      <DependentUpon>matnemaghale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="instructors.aspx.cs">
+      <DependentUpon>instructors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="instructors.aspx.designer.cs">
+      <DependentUpon>instructors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sharhenews.aspx.cs">
+      <DependentUpon>sharhenews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sharhenews.aspx.designer.cs">
+      <DependentUpon>sharhenews.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mainpage.Master" />
+    <Content Include="default_files\challenge" />
+    <Content Include="default_files\css" />
+    <Content Include="default_files\jssidebar" />
+    <Content Include="instructor_files\css" />
+    <Content Include="instructor_files\jssidebar" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache" />
+    <Content Include="akhbar.Master" />
+    <Content Include="maghalat.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1410/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

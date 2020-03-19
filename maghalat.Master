@@ -1,0 +1,340 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="maghalat.master.cs" Inherits="WebApplication1.maghalat1" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="fa-IR">
+
+
+<head>
+   
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="Saman Ismael, @54nn4n"  />
+
+	<title>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder_title" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+	</title>
+  <link rel="stylesheet" href="http://arjang.ac.ir/wp-content/themes/remis/fonts.css" type="text/css" media="screen" charset="utf-8" />
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css' />
+
+  <link rel="stylesheet" href="http://arjang.ac.ir/wp-content/themes/remis/css/bootstrap.css" type="text/css" media="screen" charset="utf-8" />
+
+<!--[if gte IE 7]><!-->
+  <link rel="stylesheet" href="http://arjang.ac.ir/wp-content/themes/remis/style.css" type="text/css" media="screen" charset="utf-8" />
+<!-- <![endif]-->
+
+<!--[if IE 7]>
+  <link rel="stylesheet" href="http://arjang.ac.ir/wp-content/themes/remis/style_ie.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" media="screen" href="http://arjang.ac.ir/wp-content/themes/remis/styles_ie6.css" />
+<![endif]-->
+
+ 
+<script type="text/javascript" language="javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/jquery-ui.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="http://arjang.ac.ir/wp-content/themes/remis/css/prettify.css"/>
+<script type="text/javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/prettify.js"></script>
+<script type="text/javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/jquery.slimscroll.js"></script>
+
+
+
+<script type="text/javascript" language="javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/script.js"></script>
+
+<script type="text/javascript" language="javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" language="javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/jquery.atooltip.min.js"></script>
+
+
+  <link rel="alternate" type="application/rss+xml" title="موسسه آموزشی مجازی مصباح سافت RSS Feed" href="http://arjang.ac.ir/feed/" />
+  <link rel="alternate" type="application/atom+xml" title="موسسه آموزش عالی ارژنگ Atom Feed" href="http://arjang.ac.ir/feed/atom/" />
+  <link rel="pingback" href="http://arjang.ac.ir/xmlrpc.php" />
+    <link rel="alternate" type="application/rss+xml" title="موسسه آموزش عالی ارژنگ &raquo; مقالات خوراک دیدگاه‌ها" href="http://arjang.ac.ir/learning/feed/" />
+<link rel='stylesheet' id='meteor-slides-css'  href='http://arjang.ac.ir/wp-content/plugins/meteor-slides/css/meteor-slides.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='video-js-css-css'  href='http://arjang.ac.ir/wp-content/plugins/video-embed-thumbnail-generator/video-js/video-js.css?ver=4.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='video-js-kg-skin-css'  href='http://arjang.ac.ir/wp-content/plugins/video-embed-thumbnail-generator/video-js/kg-video-js-skin.css?ver=4.15' type='text/css' media='all' />
+<link rel='stylesheet' id='kgvid_video_styles-css'  href='http://arjang.ac.ir/wp-content/plugins/video-embed-thumbnail-generator/css/kgvid_styles.css?ver=4.15' type='text/css' media='all' />
+<script type='text/javascript' src='http://arjang.ac.ir/wp-includes/js/comment-reply.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://arjang.ac.ir/wp-content/plugins/video-embed-thumbnail-generator/video-js/video.js?ver=4.1.0'></script>
+<script type='text/javascript' src='http://arjang.ac.ir/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var ajax_object = { "ajaxurl": "http:\/\/arjang.ac.ir\/wp-admin\/admin-ajax.php" };
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://arjang.ac.ir/wp-content/plugins/video-embed-thumbnail-generator/js/kgvid_video_embed.js?ver=4.15'></script>
+<script type='text/javascript' src='http://arjang.ac.ir/wp-content/plugins/meteor-slides/js/jquery.cycle.all.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://arjang.ac.ir/wp-content/plugins/meteor-slides/js/jquery.metadata.v2.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://arjang.ac.ir/wp-content/plugins/meteor-slides/js/jquery.touchwipe.1.1.1.js?ver=3.5.2'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var meteorslidessettings = { "meteorslideshowspeed": "2000", "meteorslideshowduration": "5000", "meteorslideshowheight": "400", "meteorslideshowwidth": "960", "meteorslideshowtransition": "fade" };
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://arjang.ac.ir/wp-content/plugins/meteor-slides/js/slideshow.js?ver=3.5.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://arjang.ac.ir/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://arjang.ac.ir/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='دوره VMware vSphere 4.0' href='http://arjang.ac.ir/vmware-vsphere/vmware-vsphere-4-0/' />
+<link rel='next' title='انواع توپولوژی های شبکه Network Topology' href='http://arjang.ac.ir/learning/network-topology/' />
+<link rel='canonical' href='http://arjang.ac.ir/learning/' />
+
+<!-- Simple Social Buttons style sheet -->
+<style type="text/css">
+   div.simplesocialbuttons { height: 20px; margin: 10px auto 10px 0; text-align: center; clear: left; }
+   div.simplesocialbutton { float: left; text-align: center;}
+</style>
+<!-- End of Simple Social Buttons -->
+
+<script type="text/javascript">videojs.options.flash.swf = "http://arjang.ac.ir/wp-content/plugins/video-embed-thumbnail-generator/video-js/video-js.swf?4.1.0"</script>
+
+
+<!--	<link rel="stylesheet" type="text/css" href="http://arjang.ac.ir/wp-content/themes/remisbootstrap.css"/> !-->
+	<link rel="stylesheet" type="text/css" href="http://arjang.ac.ir/wp-content/themes/remis/css/bootstrap-verticaltabs.css"/>
+	<link rel="stylesheet" type="text/css" href="http://arjang.ac.ir/wp-content/themes/remis/css/roz.se.css"/>
+
+<!--	<script type="text/javascript" src="jquery-1.7.1.js"></script> !-->
+	<script type="text/javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/bootstrap-transition.js"></script>
+	<script type="text/javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/bootstrap-tab.js"></script>
+	<script type="text/javascript" src="http://arjang.ac.ir/wp-content/themes/remis/js/jquery.ba-postmessage.min.js"></script>
+	<script type="text/javascript" language="javascript" src="http://my.arjang.ac.ir/_api/jssidebar"></script>
+	<script>
+	    $(document).ready(function () {
+	        $('.normalTip').aToolTip();
+	        $("#myaccount-show").hide();
+	        $("#myaccount-dropdown").hide();
+	        if (l == 1) {
+	            $("#myaccount-show").hide();
+	            $("#myaccount-dropdown").show();
+	        } else {
+	            $("#myaccount-show").show();
+	            $("#myaccount-dropdown").hide();
+	        }
+	    });
+	</script>
+	
+	
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-41811836-1', 'arjang.ac.ir');
+    ga('send', 'pageview');
+</script>		
+   
+
+
+
+	
+</head>
+
+    <body>
+    			
+        <div class="header">
+          <div class="header-container">
+                    <div class="right-header-content">
+                        <ul>
+                            <li></li>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder_TopLinkBar" runat="server">
+
+                            </asp:ContentPlaceHolder>
+                               <%-- <li><a href="http://learnkey.ir/">آغازگاه</a></li>
+                                <li class="page_item page-item-3369"><a href="http://learnkey.ir/courses-list">دوره ها</a></li>
+                                <li class="page_item page-item-1281"><a href="http://learnkey.ir/schedule">تقویم دوره ها</a></li>
+                                <li class="page_item page-item-66"><a href="http://learnkey.ir/certification/">آزمون های بین المللی</a></li>
+                                <li class="page_item page-item-91"><a href="http://learnkey.ir/?post_type=job">فرصت های شغلی</a></li>
+                                <li class="page_item page-item-1822"><a href="http://learnkey.ir/learning">مقالات</a></li>
+                                <li class="page_item page-item-91"><a href="http://learnkey.ir/contact/">تماس با ما</a></li>--%>
+<li class="page_item page-item-73">
+<div class="dropdown">
+    <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="http://www.remisexpert.com/#">
+    درباره ما
+    </a>
+    <ul class="dropdown-menu submenu" role="menu" aria-labelledby="dLabel">
+    	<a href="http://learnkey.ir/">
+    		
+    		درباره ی مصباح
+    		</a>
+    	<br>
+    	<a href="./instructors.aspx">
+    		
+    		اساتید
+    		</a>
+		<br>    	
+    	<a href="http://learnkey.ir/equipments">
+			تجهیزات
+		</a>
+		<br>  	
+    	<a href="http://learnkey.ir/cooperation-solutions">
+    		
+    		راهکارهای سازمانی
+    		</a>
+    	<br>
+    	<a href="http://learnkey.ir/international-courses">
+    		
+    		دوره های بین المللی</a>
+    	<br>
+    	<a href="http://learnkey.ir/student-credit-system">
+    		
+    		سامانه اعتباری دانشجویان
+    	</a>
+    </ul>
+ </div>
+</li>
+<li class="page_item page-item-73" id="myaccount-show" style="display: list-item;">
+	<div class="dropdown">
+	    <a class="dropdown-toggle" id="A1" role="button" data-toggle="dropdown" data-target="#" href="http://www.remisexpert.com/#">
+			ورود
+	    </a>
+	
+	    <ul class="dropdown-menu submenu" role="menu" aria-labelledby="dLabel" style="width: 220px; height: 180px;">
+	
+			<form novalidate="novalidate" action="http://my.learnkey.ir/login_check" method="post">
+			<div id="form">
+
+	
+			    <input style="border-radius: 0px; font-family: tahoma; font-size: 12px;" type="text" id="login_username" name="login[username]" required="required" placeholder="شماره دانشجویی">
+	
+			    <input style="border-radius: 0px; font-family: tahoma; font-size: 12px;" type="password" id="login_password" name="login[password]" required="required" placeholder="رمزعبور">
+
+			    <input type="submit" value="ورود" class="btn btn-info" style="font-family: tahoma; width: 220px; border-radius: 0px; background: #f39c12; padding: 10px;">
+			    <div class="clearfix"></div>
+			    <br>
+
+				<div style="width: 100%; text-align: center; font-size: 12px; font-family: tahoma;">				
+				<a href="http://my.learnkey.ir/student/signup">ثبت نام جدید</a>
+				<span style="color: #fff;margin 5px;">|</span>
+				<a href="http://my.learnkey.ir/forgot-password">رمز را فراموش کردم</a>
+				</div>
+	
+			
+
+	    </div></form></ul>
+	</div>
+</li>	
+
+<li class="page_item page-item-73" id="myaccount-dropdown" style="display: none;">
+	<div class="dropdown">
+	    <a class="dropdown-toggle" id="A2" role="button" data-toggle="dropdown" data-target="#" href="http://www.remisexpert.com/#">
+	    حساب من
+	    </a>
+	
+	    <ul class="dropdown-menu submenu" role="menu" aria-labelledby="dLabel">
+	
+		<a href="http://my.learnkey.ir/profile">حساب من</a>
+			<br>
+		<a href="http://my.learnkey.ir/my-courses">دوره‌های من</a>
+			<br>
+		<a href="http://my.learnkey.ir/educational-history">سوابق آموزشی</a>
+			<br>  	
+		<a href="http://my.learnkey.ir/financial-service">امور مالی و پرداختها</a>
+			<br>
+		<a href="http://my.learnkey.ir/logout">خروج</a>
+	    </ul>
+	</div>
+</li>	
+
+</ul>
+                    </div>
+                    <div class="left-header-content"><a href=""><img src="./img/logo-header.png"></a></div>
+                </div>
+        </div>
+
+<div id="coreContent">
+
+
+
+<div class="left">
+
+
+	  <asp:ContentPlaceHolder ID="ContentPlaceHolder_matnemaghale" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+       
+
+
+
+	
+</div>
+
+<div class="right">
+
+
+    
+  <div class="sidebar-widget-box">
+				  <div class="suggest-box-sidebar green">
+				      <div class="suggest-box-header">پیشنهادات سامانه اعتباری مشتریان</div>
+				      <ul>
+	   		<li><a href='http://my.arjang.ac.ir/course/433' target=_blank >CompTia Network Plus</a><br />براي اعضاي برنزي: 10%<br />براي اعضاي نقره اي: 20%<br />براي اعضاي طلايي: 30%</li>		</ul>
+					</div>
+				</div>
+  
+<div class="sidebar-widget-box">			<div class="textwidget"></div>
+		</div><div class="sidebar-widget-box">			<div class="textwidget"><div class="suggest-box-sidebar orange">
+
+ <ul>
+   <li>برنامه ویژه آموزشی EMC<br/>
+  14 روز (۵ روز + ۷ روز + ۲ روز) دوره فشرده آموزشی همراه با لابراتوار مجهز + تور ۴ روزه دوبی +  ۲ ووچر آزمون رسمی
+ <br /> نام استاد: علی حامدی  
+<br / > اطلاعات بیشتر :  88961407
+</li>
+ </ul>
+
+
+</div></div>
+		</div><div class="sidebar-widget-box">			<div class="textwidget"></div>
+		</div>
+
+
+
+</div>
+
+<div class="clearfix"></div>
+
+</div>
+
+
+
+        <div class="clearfix"></div>
+<div class="footer">
+
+
+<div style="width: 100%; height: 50px;">
+  <div class="bottom-nav">
+      <ul>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder_footer" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+      </ul>
+  </div>
+</div>
+
+                  تمامي حقوق اين اثر متعلق به شرکت مصباح نرم افزار است.
+                  <br>
+                  <br>
+                  
+<!--				  <a href="http://roz.se" target=_blank > <div id="rozdevteam"> </div> </a> !-->
+                  <br>
+
+</div>       
+
+
+
+
+<script src="http://arjang.ac.ir/wp-content/themes/remis/js/script2.js" type="text/javascript" charset="utf-8"></script>
+
+       
+
+    </body></html>
+</form>

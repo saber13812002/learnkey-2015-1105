@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'BNazanin';
+  src: url('font/BNazanin.eot?#') format('eot'),  /* IE6–8 */
+       url('font/BNazanin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('font/BNazanin.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+    font-family: 'minimalregular';
+    src: url('font/minimal-webfont.eot');
+    src: url('font/minimal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/minimal-webfont.woff') format('woff'),
+         url('font/minimal-webfont.ttf') format('truetype'),
+         url('font/minimal-webfont.svg#minimalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
